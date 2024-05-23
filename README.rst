@@ -31,22 +31,22 @@ Usage
 Contents of requirements.txt
 ::      
 
-keras==2.9.0
-matplotlib==3.5.2
-numpy==1.23.0
-pandas==1.4.3
-qiskit==0.44.2
-qiskit_aer==0.11.2
-qiskit_ibm_provider==0.5.0
-qiskit_ibmq_provider==0.19.2
-qiskit_ignis==0.7.1
-qiskit_terra==0.25.2.1
-scikit_learn==1.1.1
-scipy==1.13.1
-tensorflow==2.9.1
-torch==1.12.0+cu116
-qiskit_terra==0.22.3
-torch==1.12.0
+        keras==2.9.0
+        matplotlib==3.5.2
+        numpy==1.23.0
+        pandas==1.4.3
+        qiskit==0.44.2
+        qiskit_aer==0.11.2
+        qiskit_ibm_provider==0.5.0
+        qiskit_ibmq_provider==0.19.2
+        qiskit_ignis==0.7.1
+        qiskit_terra==0.25.2.1
+        scikit_learn==1.1.1
+        scipy==1.13.1
+        tensorflow==2.9.1
+        torch==1.12.0+cu116
+        qiskit_terra==0.22.3
+        torch==1.12.0
 
 
         
