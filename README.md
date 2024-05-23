@@ -1,5 +1,5 @@
 =========================================================================================================================
-``Entanglement-assisted authenticated BB84 protocol``
+``Non-Unitary Channel QPUFs``
 =========================================================================================================================
 
 
@@ -8,8 +8,8 @@
 
 
 
-.. image:: https://codecov.io/gh/terrordayvg/Authentication-of-QKD/graph/badge.svg?token=880RTY0T96
-        :target: https://codecov.io/gh/terrordayvg/Authentication-of-QKD
+.. image:: https://codecov.io/gh/terrordayvg/PT_VQC-Tomography/graph/badge.svg?token=880RTY0T96
+        :target: https://codecov.io/gh/terrordayvg/PT_VQC-Tomography
 
 .. image:: https://img.shields.io/badge/python-3.11-blue.svg
         :target: https://www.python.org/downloads/release/python-3110/
@@ -22,13 +22,23 @@ Installation of required libraries
     install -r requirements.txt
 
 Usage
+-----
 
 ::
 
     Usage:
-        PT_VQC is divided into 2 main parts:
-        -Data generation via the User and Att codes ; Providing a set of classical output strings in the authentication.
-        -Post-processing via DNN and static method ; Used to distinguish user from an attacker.
+        Puf_sim is divided into 5 distinct folders, responsible for:
+        - PE-QPUF
+        - RCNOT-QPUF
+        - Quantum_Money
+        - Physical implementation
+        - Img
+
+    In each folder:
+        - A Comment.txt file explains the files hierarchy and objective with input and output functions
+
+    Tests:
+        - CircleCI covers up the continuous integration of the code and coverage of the basic functions (.circleci folder).
 
 Contents of requirements.txt
 
@@ -50,3 +60,9 @@ Contents of requirements.txt
         torch==1.12.0
         tqdm==4.64.1
         pytest==7.4.2
+
+
+What is a Non-Unitary Channel QPUF?
+A quantum physical unclonable function protocol responsible for quantum existencial unforgability.
+This repository combines all the codes to produce the plots and results from the following article: arXiv:2404.11306
+
