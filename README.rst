@@ -23,7 +23,7 @@ Usage
 
     Usage:
         
-       Usage: PT_VQC is divided into 2 main parts:
+        PT_VQC is divided into 2 main parts:
         -Data generation via the User and Att codes ; Providing a set of classical output strings in the authentication.
         
         -Post-processing via DNN and static method ; Used to distinguish user from an attacker.
