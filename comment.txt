@@ -1,1 +1,6 @@
+Att_Aut.py - performs one way authentication realistically with Eve haar randomly generating states.
+User_Aut.py - performs one way authentication realistically with distance, storage time, lambda defined.
+DNN_binary_classification.py - performs binary classification for distinguishing the user and the attacker in the post-processing of the authentication protocol.
+
+
 This repository provides with all the codes used for the following article: -----
