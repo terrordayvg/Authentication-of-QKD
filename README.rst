@@ -29,27 +29,30 @@ Usage
         -Post-processing via DNN and static method ; Used to distinguish user from an attacker.
 
 Contents of requirements.txt
-::
+::      
 
-        matplotlib==3.5.2
-        numpy==1.23.0
-        pandas==1.4.3
-        PennyLane==0.31.0
-        qiskit==0.39.4
-        qiskit_aer==0.11.2
-        qiskit_ibmq_provider==0.19.2
-        qiskit_ignis==0.7.1
-        qiskit_terra==0.22.3
-        qutip==4.7.1
-        scikit_learn==1.1.1
-        scipy==1.8.1
-        sympy==1.12
-        torch==1.12.0
-        tqdm==4.64.1
-        pytest==7.4.2
+keras==2.9.0
+matplotlib==3.5.2
+numpy==1.23.0
+pandas==1.4.3
+qiskit==0.44.2
+qiskit_aer==0.11.2
+qiskit_ibm_provider==0.5.0
+qiskit_ibmq_provider==0.19.2
+qiskit_ignis==0.7.1
+qiskit_terra==0.25.2.1
+scikit_learn==1.1.1
+scipy==1.13.1
+tensorflow==2.9.1
+torch==1.12.0+cu116
+qiskit_terra==0.22.3
+torch==1.12.0
 
 
-What is a Non-Unitary Channel QPUF?
-A quantum physical unclonable function protocol responsible for quantum existencial unforgability.
-This repository combines all the codes to produce the plots and results from the following article: arXiv:2404.11306
+        
+
+Authentication of QKD: 
+An assumption is made during QKD protocols that both parties are to be trusted, what if that's not the case?
+A realistic AFC memory + noise simulation for one-way authentication of QKD is proposed in this work.
+This repository combines all the codes to produce the plots and results from the following article: ------
 
