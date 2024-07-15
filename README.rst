@@ -55,5 +55,5 @@ Authentication of QKD:
 
         An assumption is made during QKD protocols that both parties are to be trusted, what if that's not the case?
         A realistic AFC memory + noise simulation for one-way authentication of QKD is proposed in this work.
-        This repository combines all the codes to produce the plots and results from the following article: ------
+        This repository combines all the codes to produce the plots and results from the following article: arXiv:2407.03119
 
