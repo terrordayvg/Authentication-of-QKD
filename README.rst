@@ -35,6 +35,9 @@ Usage
         Output: Vec: probability vector of correct authentication.
                 Store_V: Output vector of measurements for authentication.
 
+        Additionally: To use main.py the perceval/components/unitary_components.py will be modified.
+                      To use main.py the qutip/measurement.py will be modified.
+
         
         -Post-processing via DNN and static method ; Used to distinguish user from an attacker.
 
