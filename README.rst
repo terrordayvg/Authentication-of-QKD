@@ -39,8 +39,15 @@ Usage
                       To use main.py the qutip/measurement.py will be modified.
 
         
-        -Post-processing via DNN and static method ; Used to distinguish user from an attacker.
-
+        -DNN_binary_class.py: Generates the weights for the binary classification for the input data.
+        
+        Input: At: Output vector of measurements for authentication for Attacker.
+                E: Output vector of measurements for authentication for User.
+        
+        Output: Roc curve plot
+                Accuracy, cross entropy plot
+                Att: Prob of predicted correct authentication
+                
 Contents of requirements.txt
 ::      
 
