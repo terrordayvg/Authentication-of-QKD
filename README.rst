@@ -41,7 +41,7 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         ::
 
         main.py ------------------------------------------------------------
-        Generates the simulation with CPU multiprocessing;
+                Generates the simulation with CPU multiprocessing;
         Command example:
         ::
                 python main.py shots10 dist1000 wait1000 users1 cores1 attack0
@@ -61,7 +61,7 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         ::
 
         DNN_binary_class.py ------------------------------------------------------------
-        Generates the weights for the binary classification for the input data.
+                Generates the weights for the binary classification for the input data.
         
         Input:  
                 * `At:` Output vector of measurements for authentication for Attacker.
