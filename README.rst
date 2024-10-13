@@ -16,6 +16,12 @@ Installation of required libraries
 
     install -r requirements.txt
 
+Architecture
+-----
+::
+
+
+
 Usage
 -----
 
