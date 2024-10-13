@@ -50,13 +50,13 @@ The authentication protocol code is divided into two parts:
         main.py
                 * Generates the simulation with CPU multiprocessing for user (attack0) or attacker (attack1);
 
-        Command example:
+        Command example: (10 shots, distance 1km, wait 1000ns, amount of authentications 1, cores in multiprocessing of shots 1, user is using the protocol) 
         ::
                 python main.py shots10 dist1000 wait1000 users1 cores1 attack0
 
         Input: 
                * `dist:` Between Alice and Bob [m].
-               * `wait:` Time to retain qubits in a quantum memory [s].
+               * `wait:` Time to retain qubits in a quantum memory [ns].
                * `cores:` Amount of cores used in multiprocessing for the simulation (its different from the file multiprocessing present in snakemake --cores x).
                * `users:` Amount of users - repeats the trials for each user, the simulator iterates from (1,nusers,step).
                * `shots:` λ, lenght of the authentication string.
