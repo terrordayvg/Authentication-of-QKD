@@ -18,8 +18,13 @@ Installation of required libraries
 
 Architecture
 -----
-:: 
-.. image:: https://github.com/terrordayvg/Authentication-of-QKD/blob/main/Img/Arcquitect2.pdf
+
+.. image:: /Img/Arcquitect2.pdf
+  :width: 450
+  :alt: Architecture of CX/CZX authentication protocol used in the simulation.
+
+
+
 
 
 
