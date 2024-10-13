@@ -71,6 +71,7 @@ main.py
         
 
 DNN_binary_class.py
+
         Generates the DNN binary classification for the input data;
         
         Input:  
