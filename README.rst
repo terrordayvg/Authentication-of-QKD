@@ -66,7 +66,7 @@ The authentication protocol code is divided into two parts:
         ::
 
         DNN_binary_class.py
-                * Generates the weights for the binary classification for the input data;
+                * Generates the DNN binary classification for the input data;
         
         Input:  
                 * `At:` Output vector of measurements for authentication for Attacker.
