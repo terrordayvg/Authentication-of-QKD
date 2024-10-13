@@ -1,0 +1,3 @@
+See section "Necessary library modifications" in intro!
+
+These two files should be updated in the source code for a correct implementation of the simulator. The simulator can run without them but the noise model would be incomplete without the beam splitter and phase shifters photon loss.
