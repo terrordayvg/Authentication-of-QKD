@@ -79,10 +79,10 @@ The authentication protocol code is divided into two parts:
                 
         
         Output: 
-                * `Roc curve plot`
-                * `Accuracy, cross entropy plot`
-                * `Att:` Probability of correctly predicted authentication
-                * `DataDNN.txt: Att data in a file`
+                * `Roc curve plot`.
+                * `Accuracy, cross entropy plot`.
+                * `Att:` Probability of correctly predicted authentication.
+                * `DataDNN.txt: Att data in a file`.
 
         Additionally!! 
                       * To use main.py the perceval/components/unitary_components.py needs to be modified.
