@@ -30,6 +30,11 @@ One directional CX/CZX BB84 embedded authentication, QM defines the Atomic frequ
 
 Usage
 -----
+::
+        =============
+        IBM Token:
+        =============
+You should in main.py update token='' with your IBM token API to use the IBM backend for the $T_1$ and $T_2$ parameters. 
 
 You either run the code independently (main.py and DNN_binary_class.py) or sequentially using snakemake by running ( "--cores x" means the amount of cores for multiple file processing to create the attacker and user dataset from main.py):
 
