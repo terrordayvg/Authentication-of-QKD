@@ -37,13 +37,10 @@ Command example:
 ::
         snakemake --cores 1
 
-
-::::
-        
-        The authentication protocol code is divided into two parts:
-
-        ::
-
+****************************
+The authentication protocol code is divided into two parts:
+****************************
+:::
         ****************************
         main.py
         ****************************
