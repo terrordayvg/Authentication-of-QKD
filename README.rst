@@ -41,7 +41,7 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         ::
 
         main.py ------------------------------------------------------------
-                Generates the simulation with CPU multiprocessing;
+                Generates the simulation with CPU multiprocessing for user (attack0) or attacker (attack1);
         Command example:
         ::
                 python main.py shots10 dist1000 wait1000 users1 cores1 attack0
