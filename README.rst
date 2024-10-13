@@ -22,7 +22,7 @@ Architecture
 .. image:: /Img/arc.png
   :alt: Architecture of CX/CZX authentication protocol used in the simulation.
 
-
+One directional CX/CZX BB84 embedded authentication, QM defines the Atomic frequency comb cavity enhanced memory which stores the states at the server-user end. 
 
 
 
