@@ -52,26 +52,27 @@ Contents of requirements.txt
 ::      
 
         keras==2.9.0
-        pandas==1.4.3
-        scikit_learn==1.1.1
-        scipy==1.13.1
-        tensorflow==2.9.1
-        torch==1.12.0+cu116
-        torch==1.12.0
         matplotlib==3.5.2
         numpy==2.1.2
+        pandas==1.4.3
         perceval_quandela==0.11.1
         qiskit==1.2.4
         qiskit_aer==0.15.1
         qiskit_experiments==0.7.0
         qiskit_ibm_runtime==0.30.0
         qiskit_ibmq_provider==0.19.2
-        qiskit_ignis==0.7.1
+        qiskit_ignis==0.7.1        
         qiskit_terra==0.25.2.1
         qutip==5.0.4
+        scikit_learn==1.1.1
         scipy==1.14.1
         sdeint==0.3.0
+        tensorflow==2.9.0
+        tensorflow_intel==2.16.1
+        torch==1.12.0+cu116
         qiskit_terra==0.22.3
+        torch==1.12.0
+        snakemake==7.32.4
 
 
         
