@@ -21,7 +21,7 @@ Installation of required libraries
 Necessary library modifications!
 -----
 
-In the folder **"Modified_libraries"** are the updated files for perceval and qutip. In source code you can find the original files at:
+In the folder **"Modified_libraries"** are the updated files for perceval and qutip (changes explained in Modified_libraries/comment.txt). In source code you can find the original files at:
     * perceval/components/unitary_components.py (adds the loss of beam splitters and phase shifters according to: arXiv:2311.10613v3)
     * qutip/measurements.py (creates extra protection with the choice of probabilities during Z-basis measurement)
 
