@@ -18,7 +18,7 @@ Installation of required libraries
 
 Architecture
 -----
-:: .. image:: https://raw.githubusercontent.com/terrordayvg/Authentication-of-QKD/Img/Arcquitect2.pdf
+:: .. image:: https://raw.githubusercontent.com/terrordayvg/Authentication-of-QKD/blob/main/Img/Arcquitect2.pdf
 
 
 
