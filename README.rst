@@ -43,10 +43,8 @@ The authentication protocol code is divided into two parts:
 
         ::
 
-        =============
         main.py
-        =============
-                Generates the simulation with CPU multiprocessing for user (attack0) or attacker (attack1);
+                * Generates the simulation with CPU multiprocessing for user (attack0) or attacker (attack1);
 
         Command example:
         ::
