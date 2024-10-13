@@ -31,8 +31,8 @@ Usage
 -----
 You either run the code independently (main.py and DNN_binary_class.py) or sequentially using snakemake by running ( "--cores x" means the amount of cores for multiple file processing to create the attacker and user dataset (max=2) from main.py)
 
-::
-        snakemake --cores 1
+        ::
+                snakemake --cores 1
 
 ::::
         
