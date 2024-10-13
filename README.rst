@@ -39,7 +39,9 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         The authentication protocol code is divided into two parts:
 
         ::
-        main.py : Generates the simulation with CPU multiprocessing;
+
+        main.py
+                Generates the simulation with CPU multiprocessing;
         Command example:
         ::
                 python main.py shots10 dist1000 wait1000 users1 cores1 attack0
