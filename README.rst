@@ -20,7 +20,6 @@ Architecture
 -----
 
 .. image:: /Img/arc.png
-  :width: 450
   :alt: Architecture of CX/CZX authentication protocol used in the simulation.
 
 
