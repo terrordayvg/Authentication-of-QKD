@@ -11,6 +11,7 @@ Entanglement-assisted authenticated BB84 protocol
 
 
 Installation of required libraries
+-----
 
 ::
 
@@ -18,6 +19,7 @@ Installation of required libraries
 
 
 Modification of libraries
+-----
 
 ::
 
