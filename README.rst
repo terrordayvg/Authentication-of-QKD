@@ -39,12 +39,17 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         The authentication protocol code is divided into two parts:
         
         -main.py : Generates the simulation with CPU multiprocessing;
+        Command example:
+        ::
+                python main.py shots10 dist1000 wait1000 users1 cores1 attack0
+
         Input: 
-               * `distance:` Between Alice and Bob [m].
-               * `time:` Time to retain qubits in a quantum memory [s].
-               * `cores:` Amount of cores used in multiprocessing .
-               * `nusers:` Amount of users - repeats the trials for each user, the simulator iterates from (1,nusers,step).
-               * `maxshots:` λ, the simulator iterates from (1,maxshots,step).
+               * `dist:` Between Alice and Bob [m].
+               * `wait:` Time to retain qubits in a quantum memory [s].
+               * `cores:` Amount of cores used in multiprocessing for the simulation (its different from the file multiprocessing present in snakemake --cores x).
+               * `users:` Amount of users - repeats the trials for each user, the simulator iterates from (1,nusers,step).
+               * `shots:` λ, lenght of the authentication string.
+               * `attack:` 0 (user authenticating) or 1 (attacker authenticating).
 
         Output: 
                 * `Vec:` probability vector of correct authentication.
