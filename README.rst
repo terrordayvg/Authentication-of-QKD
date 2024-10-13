@@ -35,8 +35,6 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         snakemake --cores 1
 
 ::::
-
-    Usage:
         
         The authentication protocol code is divided into two parts:
         
