@@ -47,7 +47,7 @@ The authentication protocol code is divided into two parts:
 
         ::
 
-        main.py
+main.py
         
                 Generates the simulation with CPU multiprocessing for user (attack0) or attacker (attack1);
 
@@ -71,7 +71,7 @@ The authentication protocol code is divided into two parts:
         
 
 DNN_binary_class.py
-                 Generates the DNN binary classification for the input data;
+        Generates the DNN binary classification for the input data;
         
         Input:  
                 * `At:` Output vector of measurements for authentication for Attacker.
