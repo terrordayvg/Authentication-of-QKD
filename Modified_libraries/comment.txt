@@ -1,3 +1,17 @@
 See section "Necessary library modifications" in intro!
 
 These two files should be updated in the source code for a correct implementation of the simulator. The simulator can run without them but the noise model would be incomplete without the beam splitter and phase shifters photon loss.
+
+Added changes:
+-----------------------------------------------------------
+
+perceval/components/unitary_components.py :
+=================================================
+In class BS(ACircuit): --> def _compute_unitary(self, assign=None, use_symbolic=False): added parameters A,B,C,D based on random walk theory (line 98)
+In class PS(ACircuit): --> def _compute_unitary(self, assign=None, use_symbolic=False): added parameters A random walk theory (line 256)
+
+
+
+qutip/measurement.py :
+=================================================
+In def measure_povm(state, ops, tol=None): as we have 2 states sometimes the probability may overall bigger than 1 during density evolution (eg. p=1.00012) this raises an error in qutip so we shall correct it. (line 329)
