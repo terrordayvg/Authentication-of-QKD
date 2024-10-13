@@ -80,8 +80,9 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
                 * `Att:` Probability of correctly predicted authentication
                 * `DataDNN.txt: Att data in a file`
 
-        Additionally: To use main.py the perceval/components/unitary_components.py will be modified.
-                      To use main.py the qutip/measurement.py will be modified.
+        Additionally!! 
+                      * To use main.py the perceval/components/unitary_components.py needs to be modified.
+                      * To use main.py the qutip/measurement.py needs to be modified.
                 
 Contents of requirements.txt
 ::      
