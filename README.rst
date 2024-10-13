@@ -41,7 +41,8 @@ Command example:
 
         ::
 
-        main.py ------------------------------------------------------------
+        main.py 
+        ----
                 Generates the simulation with CPU multiprocessing for user (attack0) or attacker (attack1);
         Command example:
         ::
@@ -62,7 +63,8 @@ Command example:
 
         ::
 
-        DNN_binary_class.py ------------------------------------------------------------
+        DNN_binary_class.py
+        ----
                 Generates the weights for the binary classification for the input data;
         
         Input:  
