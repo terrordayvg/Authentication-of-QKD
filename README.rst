@@ -33,7 +33,7 @@ Usage
 ::
         
 IBM Token:
-        * You should in main.py update **token=' '** with your IBM token API to use the IBM backend for the decoherence and dephasing parameters. 
+        * You should in **main.py** update **token=' '** with your IBM token API to use the IBM backend for the decoherence and dephasing parameters. 
 
 You either run the code independently (main.py and DNN_binary_class.py) or sequentially using snakemake by running ( "--cores x" means the amount of cores for multiple file processing to create the attacker and user dataset from main.py):
 
@@ -47,7 +47,7 @@ The authentication protocol code is divided into two parts:
 
         ::
 
-        main.py
+        **main.py**
                 * Generates the simulation with CPU multiprocessing for user (attack0) or attacker (attack1);
 
         Command example:
@@ -69,7 +69,7 @@ The authentication protocol code is divided into two parts:
 
         ::
 
-        DNN_binary_class.py
+        **DNN_binary_class.py**
                 * Generates the DNN binary classification for the input data;
         
         Input:  
