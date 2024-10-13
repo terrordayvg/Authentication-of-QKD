@@ -17,6 +17,13 @@ Installation of required libraries
     install -r requirements.txt
 
 
+Modification of libraries
+
+::
+
+    install -r requirements.txt
+
+
 Architecture
 -----
 
