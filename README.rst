@@ -18,12 +18,14 @@ Installation of required libraries
     install -r requirements.txt
 
 
-Modification of libraries
+Necessary library modifications!
 -----
+In the folder **"Modified_libraries"** are the updated files for perceval and qutip. You in the source code you can find them at:
 
 ::
 
-    install -r requirements.txt
+    * perceval\components\unitary_components.py (adds the loss of beam splitters and phase shifters according to: arXiv:2311.10613v3)
+    * qutip\measurements.py (creates extra protection with the choice of probabilities during Z-basis measurement)
 
 
 Architecture
