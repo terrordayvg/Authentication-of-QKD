@@ -47,7 +47,7 @@ The authentication protocol code is divided into two parts:
 
         ::
 
-        **main.py**
+        main.py
                 * Generates the simulation with CPU multiprocessing for user (attack0) or attacker (attack1);
 
         Command example:
@@ -69,7 +69,7 @@ The authentication protocol code is divided into two parts:
 
         ::
 
-        **DNN_binary_class.py**
+        DNN_binary_class.py
                 * Generates the DNN binary classification for the input data;
         
         Input:  
