@@ -39,14 +39,14 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         The authentication protocol code is divided into two parts:
         
         -main.py : Generates the simulation with CPU multiprocessing;
-        Input: distance: Between Alice and Bob [m].
-               time: Time to retain qubits in a quantum memory [s].
-               cores: Amount of cores used in multiprocessing .
-               nusers: Amount of users - repeats the trials for each user, the simulator iterates from (1,nusers,step).
-               maxshots: λ, the simulator iterates from (1,maxshots,step).
+        Input: * `distance:` Between Alice and Bob [m].
+               * `time:` Time to retain qubits in a quantum memory [s].
+               * `cores:` Amount of cores used in multiprocessing .
+               * `nusers:` Amount of users - repeats the trials for each user, the simulator iterates from (1,nusers,step).
+               * `maxshots:` λ, the simulator iterates from (1,maxshots,step).
 
-        Output: Vec: probability vector of correct authentication.
-                Store_V: Output vector of measurements for authentication.
+        Output: * `Vec:` probability vector of correct authentication.
+                * `Store_V:` Output vector of measurements for authentication.
 
         Additionally: To use main.py the perceval/components/unitary_components.py will be modified.
                       To use main.py the qutip/measurement.py will be modified.
@@ -54,12 +54,12 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         
         -DNN_binary_class.py: Generates the weights for the binary classification for the input data.
         
-        Input: At: Output vector of measurements for authentication for Attacker.
-                E: Output vector of measurements for authentication for User.
+        Input:  * `At:` Output vector of measurements for authentication for Attacker.
+                * `E:` Output vector of measurements for authentication for User.
         
-        Output: Roc curve plot
-                Accuracy, cross entropy plot
-                Att: Prob of predicted correct authentication
+        Output: * `Roc curve plot`
+                * `Accuracy, cross entropy plot`
+                * `Att:` Probability of correctly predicted authentication
                 
 Contents of requirements.txt
 ::      
