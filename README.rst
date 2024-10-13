@@ -57,15 +57,21 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
         Output: 
                 * `Vec:` probability vector of correct authentication.
                 * `Store_V:` Output vector of measurements for authentication.
+                * `Authen_x.txt:` Output file with the Store_V in it
 
         ::
 
         DNN_binary_class.py ------------------------------------------------------------
-                Generates the weights for the binary classification for the input data.
+                Generates the weights for the binary classification for the input data;
         
         Input:  
                 * `At:` Output vector of measurements for authentication for Attacker.
                 * `E:` Output vector of measurements for authentication for User.
+
+                        or
+                * `At:` Output vector of measurements for authentication for Attacker.
+                * `E:` Output vector of measurements for authentication for User.
+                
         
         Output: 
                 * `Roc curve plot`
