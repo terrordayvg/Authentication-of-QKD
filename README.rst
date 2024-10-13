@@ -41,7 +41,8 @@ Command example:
 The authentication protocol code is divided into two parts:
 
 
-:::
+        ::
+
         main.py
         
 
