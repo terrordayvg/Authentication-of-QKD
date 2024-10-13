@@ -48,7 +48,7 @@ The authentication protocol code is divided into two parts:
 
         Command example:
         ::
-                python main.py shots10 dist1000 wait1000 users1 cores1 attack0
+                python3 main.py shots10 dist1000 wait1000 users1 cores1 attack0
 
         Input: 
                * `dist:` Between Alice and Bob [m].
