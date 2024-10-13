@@ -68,9 +68,9 @@ The authentication protocol code is divided into two parts:
                 * `Store_V:` Output vector of measurements for authentication.
                 * `Authen_x.txt:` Output file with the Store_V in it
 
-        ::
+        
 
-        DNN_binary_class.py
+DNN_binary_class.py
                  Generates the DNN binary classification for the input data;
         
         Input:  
