@@ -69,14 +69,16 @@ You either run the code independently (main.py and DNN_binary_class.py) or seque
                 * `E:` Output vector of measurements for authentication for User.
 
                         or
-                * `At:` Output vector of measurements for authentication for Attacker.
-                * `E:` Output vector of measurements for authentication for User.
+
+                * `Authen_1.txt:` Output vector of measurements for authentication for Attacker.
+                * `Authen_0.txt:` Output vector of measurements for authentication for User.
                 
         
         Output: 
                 * `Roc curve plot`
                 * `Accuracy, cross entropy plot`
                 * `Att:` Probability of correctly predicted authentication
+                * `DataDNN.txt: Att data in a file`
 
         Additionally: To use main.py the perceval/components/unitary_components.py will be modified.
                       To use main.py the qutip/measurement.py will be modified.
