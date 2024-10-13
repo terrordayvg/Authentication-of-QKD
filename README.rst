@@ -19,7 +19,7 @@ Installation of required libraries
 Architecture
 -----
 
-.. image:: /Img/Arcquitect2.pdf
+.. image:: /Img/Arcquitect2.png
   :width: 450
   :alt: Architecture of CX/CZX authentication protocol used in the simulation.
 
