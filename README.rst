@@ -33,7 +33,7 @@ Architecture
 .. image:: /Img/Arc_up.png
   :alt: Architecture of CX/CZX authentication protocol used in the simulation.
 
-One directional CX/CZX BB84 embedded authentication, QM defines the Atomic frequency comb cavity enhanced memory which stores the states at the server-user end. In the output measurement (Z-basis) Alice verifies Bob by measuring [0,0,...] (for noiseless authentication).
+One directional CX/CZX BB84 embedded authentication, QM defines the Atomic frequency comb cavity enhanced memory which stores the states at the server-user end. In the output measurement (Z-basis) Alice verifies Bob by measuring [0,1,1,0..]. For noiseless authentication 0s would correspond to CX and 1s to CZX.
 
 
 
