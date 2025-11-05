@@ -1,7 +1,7 @@
 
 ###################################################
 ### Code: DNN for binary classification ###########
-### Creator: Vladlen Galetsky - 10/10/2024 updated#
+### Creator: Vladlen Galetsky - 10/10/2024 ########
 ###################################################
 ###################################################
 
@@ -315,4 +315,5 @@ if __name__ == "__main__":
     #At = file.read() #User
 
     run_test_harness(E,At)
+
 
