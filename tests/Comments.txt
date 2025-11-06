@@ -1,0 +1,9 @@
+======== The testing enviroment is run in Pytest ===========
+
+They run independently to the API to the IBM server, so you dont need an account for testing.
+
+To run, go to this directory with cmd:
+
+Run for all files: python -m pytest -v
+
+or for a single file for example for main: python -m pytest main.py
