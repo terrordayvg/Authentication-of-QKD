@@ -1,4 +1,4 @@
-### Code created by: Vladlen Galetsky - 10/10/2024 #########################################################################
+### Code created by: Vladlen Galetsky - 10/10/2025 #########################################################################
 ### Purpose: Simulating realistically the authentication protocol in :arXiv:2407.03119 #####################################
 ### Combines perceval (optical channel definition) + qutip (mid operations) + qiskit (decoherence + dephasing channel) #####
 ############################################################################################################################
@@ -6,7 +6,6 @@
 ## ------ CX / CZX optically post-processed -- Fiber optic channel -- Q mem channel -- Fiber optic channel -- Authentication 
 ## Returns: Probability of correct authentication: "Vec" + string of measurements [0,1,0,0,0...] : "finalm"
 ##
-
 # Imports : numpy, matplotlib, perceval, qiskit
 import sys
 import numpy as np
@@ -162,8 +161,8 @@ def MeasureF(rho):
 	PZ1 = [qp.tensor(Z0, qp.identity(2)), qp.tensor(Z1, qp.identity(2))]
 	PZ2 = [qp.tensor(qp.identity(2), Z0), qp.tensor(qp.identity(2), Z1)]
 
-
-	a=Qobj(rho,dims=[[2,2],[2,2]]) 	  			#qutip object of density matrix
+	a=Qobj(rho,dims=[[2,2],[2,2]]) 			#qutip object of density matrix
+	
 	qa=measure(a, PZ2)                			#output: [meas, obj rho]
 
 	return qa[0]
@@ -213,7 +212,6 @@ def Gen_key(shots,user):
 
 #Main to be iterated
 def run_circ(shots,dist,j,c_key,backend,wait,T_photons,user,rho1,rho2,attack):
-
 	#Randomness in the seed of the efficiency model
 	np.random.seed(j)
 
@@ -267,9 +265,11 @@ def run_circ(shots,dist,j,c_key,backend,wait,T_photons,user,rho1,rho2,attack):
 	
 	#Second part of the optical simulator (authentication)
 	rho=qiskit_converter2t(rho,c_key)
+	print(rho)
 	#Measurement of q1 to verify if its 0 or 1
 	#returns output of measurement in Pauli Z basis
 	outq0=MeasureF(rho)
+
 
 	return outq0
 
@@ -519,11 +519,14 @@ if __name__ == "__main__":
 	#Initialize input parameters
 	shots,dist,wait,nusers,cores,attack=init_p(sys.argv)
 
-	#Input your qiskit token so you can obtain the ibm_sherbrooke backend
-	token=" "
-	#QiskitRuntimeService.save_account(channel="ibm_quantum", token=token) #If it is your first time running, to save the token use this line of code
-	service = QiskitRuntimeService(channel="ibm_quantum")
-	backend = service.backend("ibm_sherbrooke")                            #Backend used to obtain the T1 and T2 pamaters
+	#Data from IBM Quantum - when you create an account you should have access to the API token and the CRN-instance, input both here:
+	token=""
+	CRN=""
+
+	QiskitRuntimeService.save_account(token=token, instance=CRN, overwrite=True)
+	service = QiskitRuntimeService()
+
+	backend = service.backend("ibm_fez")                                   #Backend used to obtain the T1 and T2 pamaters
 
 	noise_model= NoiseModel.from_backend(backend)                          #In the aer simulator import the noise parameters from the backend
 	coupling_map = backend.configuration().coupling_map
