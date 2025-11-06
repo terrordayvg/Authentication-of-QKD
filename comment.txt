@@ -1,3 +1,6 @@
+To run this code:
+token="" and CRN="" should be defined from your IBM Quantum account
+
 Att_Aut.py - performs one way authentication realistically with Eve haar randomly generating states.
 User_Aut.py - performs one way authentication realistically with distance, storage time, lambda defined.
 DNN_binary_classification.py - performs binary classification for distinguishing the user and the attacker in the post-processing of the authentication protocol.
