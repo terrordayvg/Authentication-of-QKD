@@ -132,15 +132,34 @@ Contents of requirements.txt
         pytest-mock==3.15.1
 
 
-        
+
 
 Authentication of QKD background:
 -----
 
         An assumption is made during QKD protocols that both parties are to be trusted, what if that's not the case?
         A realistic AFC memory + noise simulation for one-way authentication of QKD is proposed in this work.
-        This repository combines all the codes to produce the plots and results from the following article: arXiv:2407.03119.
 
-        Please cite it if the code is used.
+How to Cite
+===========
+
+If you use this work, please cite the following paper:
+
+::
+
+    @article{EBB84, 
+       title={Entanglement-assisted authenticated BB84 protocol},
+       volume={100},
+       ISSN={1402-4896},
+       url={http://dx.doi.org/10.1088/1402-4896/ae0838},
+       DOI={10.1088/1402-4896/ae0838},
+       number={10},
+       journal={Physica Scripta},
+       publisher={IOP Publishing},
+       author={Farré, Pol Julià and Galetsky, Vladlen and Ghosh, Soham and Nötzel, Janis and Deppe, Christian},
+       year={2025},
+       month=oct,
+       pages={105113}
+    }
 
 
