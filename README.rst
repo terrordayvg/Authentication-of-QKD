@@ -17,7 +17,7 @@ Docker - Installation of environment to run the code
         
         2) Build docker in cmd with command eg.: docker build -t auth-project .
 
-        3) Run docker with pytest for testing functions with command eg.: docker run auth-project -m pytest Testing
+        3) Run docker with pytest for testing functions with command eg.: docker run auth-project -m pytest tests
 
         4) Run docker for chosen file eg. main.py file, the command should be: docker run auth-project main.py
 
