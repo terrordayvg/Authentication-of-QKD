@@ -10,8 +10,19 @@ Entanglement-assisted authenticated BB84 protocol
         :target: https://www.python.org/downloads/release/python-3110/
 
 
-Installation of required libraries
+Docker - Installation of environment to run the code
 -----
+
+        1) Install Docker
+        
+        2) Build docker in cmd with command eg.: docker build -t auth-project .
+
+        3) Run docker with pytest for testing functions with command eg.: docker run auth-project -m pytest Testing
+
+        4) Run docker for chosen file eg. main.py file, the command should be: docker run auth-project main.py
+
+
+(Alternative - if not using Docker) Installation of required libraries
 
 ::
 
